@@ -1,0 +1,125 @@
+@page {
+    size: 8.5in 11in;
+    margin: 0.25in;
+}
+
+body {
+    --color-black: #000;
+    --color-grey: #555;
+    --color-accent: #c92d2d;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+h1, h2, h3, h4
+p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+  padding-left: 20px;
+  list-style-type: " - ";
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+p, li {
+    margin-bottom: 5px;
+    line-height: 1.3em;
+}
+
+div, p, li {
+    color: var(--color-grey);
+}
+
+a {
+    color: var(--color-accent);
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    font-size: 52px;
+    color: var(--color-black);
+}
+
+h2 {
+    font-size: 22px;
+    color: var(--color-grey);
+    text-align: right;
+}
+
+h3 {
+    font-size: 18px;
+    color: var(--color-black);
+    margin-bottom: 5px;
+}
+
+h4 {
+    font-size: 13px;
+    color: var(--color-grey);
+    margin-bottom: 5px;
+}
+
+.flex-apart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pad-bottom {
+    margin-bottom: 5px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+#main-column {
+    flex: 0 0 70%;
+    margin-right: 30px;
+}
+
+#side-column {
+    flex: 1 1 auto;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.entry {
+    margin-bottom: 10px;
+}
+
+#bio-section {
+    padding-bottom: 5px;
+}
+
+#bio-section p {
+    text-indent: 20px;
+}
+
+#experience-section .entry .title,
+#projects-section .entry .title {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+#contact-section div,
+#contact-section a {
+    margin-bottom: 6px;
+}
+
+#contact-section {
+    margin-top: 95px;
+    padding-bottom: 10px;
+}
