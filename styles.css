@@ -46,7 +46,7 @@ a {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 36px;
     color: var(--color-black);
 }
 
@@ -132,4 +132,8 @@ h4 {
 
 #skills-section .skills-subsection {
     margin-bottom: 10px;
+}
+
+.small-title {
+    font-size: 15px;
 }
