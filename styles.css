@@ -15,27 +15,37 @@ body {
     font-size: 11px;
 }
 
-h1, h2, h3, h4
-p, ul, li {
+h1,
+h2,
+h3,
+h4 p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
 ul {
-  padding-left: 20px;
-  list-style-type: " - ";
+    padding-left: 20px;
+    list-style-type: " - ";
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     text-transform: uppercase;
 }
 
-p, li {
+p,
+li {
     margin-bottom: 5px;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
 
-div, p, li {
+div,
+p,
+li {
     color: var(--color-grey);
 }
 
